@@ -1,0 +1,7 @@
+frontend npm start 
+backend nodemon server.js
+
+
+
+
+font : npm i react-router-dom
