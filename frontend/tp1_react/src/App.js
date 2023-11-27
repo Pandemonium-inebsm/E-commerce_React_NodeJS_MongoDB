@@ -5,6 +5,10 @@ import { ProductAddForm } from './compenents/component.product.add';
 import {Routes, Route} from 'react-router-dom'
 import { AdminLayout } from './compenents/component.admin.layout';
 
+import {Home} from './compenents/component.home';
+import {Contacts} from './compenents/component.contacts';
+import {Connexion} from './compenents/component.connexion';
+
 
 function App() {
   return (
@@ -12,6 +16,10 @@ function App() {
               <Route path="/" element={<AdminLayout/>}>
               <Route path='/products' element={<ProductList/>} />
               <Route path='/products/new' element={<ProductAddForm/>} />
+
+              <Route path='/home' element={<Home/>} />
+              <Route path='/connexion' element={<Connexion/>} />
+              <Route path='/contacts' element={<Contacts/>} />
               </Route>
          </Routes>
     

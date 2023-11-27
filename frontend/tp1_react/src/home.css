@@ -1,0 +1,19 @@
+
+  
+  /* Update the path to your image */
+.bgimg {
+    background-image: url('https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F37ae1ec9-052a-4873-92fd-abf7654160fa_4902x1940.jpeg'); /* Update the path to your image */
+    
+    height: 100vh; /* Set height to 100% of the viewport height */
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Set text color to white or a contrasting color */
+    text-align: center;
+  }
+  
+  /* Add any additional styles for the content within the .bgimg */
+  

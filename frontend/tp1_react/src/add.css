@@ -1,0 +1,32 @@
+.sub {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #01d28e; /* Green color for the button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .sub:hover {
+    background-color: #01d28e; /* Darker green on hover */
+  }
+
+  .res {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #d22001; /* Green color for the button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .res:hover {
+    background-color: #d22001; /* Darker green on hover */
+  }
+
+
+
