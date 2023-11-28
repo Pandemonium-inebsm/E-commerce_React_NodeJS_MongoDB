@@ -20,8 +20,8 @@
         <img src="Capture/react.png">
  
 
-      <h3>Node.js</h3>
-      <p>Node.js est un environnement d'exécution JavaScript côté serveur, basé sur le moteur V8 de Google. 
+<h3>Node.js</h3>
+<p>Node.js est un environnement d'exécution JavaScript côté serveur, basé sur le moteur V8 de Google. 
         Il offre une plateforme légère et efficace pour le développement d'applications back-end évolutives. 
         La nature asynchrone de Node.js, associée à son système de gestion des événements, permet le traitement 
         simultané de nombreuses requêtes, améliorant ainsi la réactivité des applications. Node.js est particulièrement 
@@ -30,7 +30,7 @@
         <img src="Capture/node.png">
     
 
-    <h3>MongoDB</h3>
+<h3>MongoDB</h3>
     <p>MongoDB, une base de données NoSQL orientée document, se distingue par sa flexibilité et sa scalabilité horizontale. 
         Contrairement aux bases de données relationnelles, MongoDB stocke les données au format JSON-like (BSON), facilitant 
         l'intégration avec des applications JavaScript, notamment celles développées avec Node.js et React. Sa structure de base de données 
