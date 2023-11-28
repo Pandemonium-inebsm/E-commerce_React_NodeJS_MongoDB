@@ -26,16 +26,18 @@ export function ProductList(){
 
 
 <div className="table-wrapper">
-  <Link to="/products/new" className="add-product-button">
+  <Link to={"/categories"} className="add-product-button">
     Nouveau Produit
   </Link>
   <div className="container mt-5 shadow">
     <table className="fl-table">
+      <thead>
       <tr>
         <th className="text-center">Name</th>
         <th className="text-center">Price</th>
         <th className="text-center">Action</th>
       </tr>
+      </thead>
       <tbody id="tbody">
         {products.map((elem, index) => (
           <tr key={index}>
@@ -44,7 +46,10 @@ export function ProductList(){
             <td className="text-center">
               {/* Utilisation d'une icône de suppression de FontAwesome */}
               <i className="fas fa-trash icon-rouge" onClick={() => deleteProduct(elem._id)}></i>
-              <i className="fas fa-pencil-alt icon-bleue" onClick={() => deleteProduct(elem._id)}></i>
+              {/* <i className="fas fa-pencil-alt icon-bleue" onClick={() => deleteProduct(elem._id)}></i> */}
+              
+              <Link to= {`/products/edit/${elem._id}`} className="fas fa-pencil-alt icon-bleue">
+              </Link>
             </td>
           </tr>
         ))}
