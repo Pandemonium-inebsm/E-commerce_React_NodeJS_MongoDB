@@ -35,6 +35,7 @@ export function ProductList(){
       <tr>
         <th className="text-center">Name</th>
         <th className="text-center">Price</th>
+        <th className="text-center">Categorie</th>
         <th className="text-center">Action</th>
       </tr>
       </thead>
@@ -43,6 +44,7 @@ export function ProductList(){
           <tr key={index}>
             <td className="text-center">{elem.name}</td>
             <td className="text-center">{elem.price}</td>
+            <td class="text-center">{elem.category.name}</td>
             <td className="text-center">
               {/* Utilisation d'une icône de suppression de FontAwesome */}
               <i className="fas fa-trash icon-rouge" onClick={() => deleteProduct(elem._id)}></i>

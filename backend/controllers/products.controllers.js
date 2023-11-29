@@ -3,7 +3,7 @@ const Product = require('../models/Product');
 
 async function getAllProducts(req,res){
     try{
-        const products = await Product.find(); 
+        const products = await Product.find().populate("category"); 
         res.status(200).json(products);
     }catch(error){
         

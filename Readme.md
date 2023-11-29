@@ -45,19 +45,22 @@
 <p>Cette application permet de :</p>
 
 <ol>
-  <li>Ajouter un produit</li>
+
+  <li>Ajouter une categorie</li>
   </ul>
-  <li>Lister les produit</li>
-  <ul>
+  <li>Ajouter un produit en l'associant à une categorie</li>
+  </ul>
+  <li>Lister les produits</li>
+  </ul>
   <li>Editer un produit</li>
   </ul>
   <li>Supprimer un produit</li>
   </ul>
   <li>Navigation des pages grace au navbar</li>
-  </ul>  
+  </ul> 
+
 </ol>
 
-<h2>Structure</h2>
 
 
 <h2>Guide d'utilisation</h2>
@@ -68,7 +71,7 @@
     Veillez ouvrir un nouveau terminal.
     <br>Taper cd front-end
     <br> Puis cd tp1_react
-    <br> Puis taper nodemon server.js
+    <br> Puis taper npm start
   </p>
 
 <h2>Apercu du projet</h2>
@@ -80,6 +83,8 @@
 <img src="Capture/ajoutproduit.png">
 <p>Page Edit</p>
 <img src="Capture/editproduit.png">
+<p>Ajout categorie</p>
+<img src="Capture/addcategorie.png">
 <p>Page nous contacter</p>
 <img src="Capture/contact.png">
 <p>Page authentification</p>
